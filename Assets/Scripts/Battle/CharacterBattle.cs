@@ -21,5 +21,5 @@ public abstract class CharacterBattle : MonoBehaviour
         
     }
 
-    public abstract void Death;
+    protected abstract void Death();
 }
